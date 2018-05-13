@@ -9,13 +9,14 @@ public class GameManager : MonoBehaviour {
     public Sprite[] cardFace;
     public Sprite cardBack;
     public GameObject[] cards;
-    //public Text numOfSpirits;
+    public Text numOfSpirits;
 
     private bool _init = false;
-    //private int _matches = 0;    
+    private int _numOfSpirits = 0;    
     
 	// Update is called once per frame
 	void Update () {
+        numOfSpirits.text = "Spirits: " + _numOfSpirits + "/7";
         if (!_init)
             InitializeCards();
 
@@ -25,9 +26,8 @@ public class GameManager : MonoBehaviour {
 
     void InitializeCards()
     {
-        List<int> spiritNumList = new List<int>() { 48, 49, 50, 51, 52, 53, 54, 55 };
 
-        for (int i=1; i < 48; i++)
+        for (int i=1; i < 57; i++)
         {
             bool test=false;
             int choice = 0;
@@ -37,33 +37,17 @@ public class GameManager : MonoBehaviour {
                 test = !(cards[choice].GetComponent<CardController>().Initialized);
             }
             cards[choice].GetComponent<CardController>().CardValue = i;
-            cards[choice].GetComponent<CardController>().Initialized = true;    
-            
-            if (i == 55)
-                cards[choice].GetComponent<CardController>().IsFaceUp = false;
-        }
-
-        for (int i = 48; i < 55; i++)
-        {
-            bool test = false;
-            int choice = 0;
-            while (!test)
-            {
-                choice = Random.Range(48, cards.Length);
-                Debug.Log(choice);
-                test = !(cards[choice].GetComponent<CardController>().Initialized);
-                Debug.Log("next");
-            }
-            cards[choice].GetComponent<CardController>().CardValue = i;
             cards[choice].GetComponent<CardController>().Initialized = true;
 
-            if (i == 55)
-                cards[choice].GetComponent<CardController>().IsFaceUp = false;
+            if (i > 47 && i!=55)
+                cards[choice].GetComponent<CardController>().IsSpirit = true;
+            else
+                cards[choice].GetComponent<CardController>().IsSpirit = false;
+
+
         }
 
         List<int> cardNumList = new List<int>() {0,1,2,3,4,5,6,13,14,15,16,17,28,29,22,23,24,27,30,31,32,33,34,41,42,43,44,45,50,51,52,55};
-        
-
         foreach (int num in cardNumList)
             cards[num].GetComponent<CardController>().IsFaceUp = false;
 

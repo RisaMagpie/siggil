@@ -151,6 +151,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &40083067
 RectTransform:
   m_ObjectHideFlags: 0
@@ -355,6 +358,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &74244756
 RectTransform:
   m_ObjectHideFlags: 0
@@ -559,6 +565,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &108815840
 RectTransform:
   m_ObjectHideFlags: 0
@@ -763,6 +772,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &184854309
 RectTransform:
   m_ObjectHideFlags: 0
@@ -967,6 +979,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &228229443
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1171,6 +1186,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &259769405
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1461,6 +1479,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &314084962
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1769,6 +1790,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &329295128
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1973,6 +1997,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &353831715
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2177,6 +2204,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &358074335
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2381,6 +2411,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &387075964
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2585,6 +2618,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &488018592
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2789,6 +2825,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &489721501
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2993,6 +3032,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &518011811
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3327,6 +3369,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &550240594
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3652,6 +3697,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &725694991
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3975,6 +4023,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &810453789
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4289,6 +4340,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &884914006
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4493,6 +4547,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &891448313
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4697,6 +4754,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &898093951
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4901,6 +4961,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &935079397
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5105,6 +5168,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &950053550
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5309,6 +5375,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1016053965
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5630,6 +5699,7 @@ MonoBehaviour:
   - {fileID: 1209409684}
   - {fileID: 526701590}
   - {fileID: 769906631}
+  numOfSpirits: {fileID: 1044841251}
 --- !u!1 &1036262953
 GameObject:
   m_ObjectHideFlags: 0
@@ -5668,6 +5738,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1036262955
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5872,6 +5945,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1043966019
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6038,6 +6114,80 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1043966017}
+--- !u!1 &1044841249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1044841250}
+  - component: {fileID: 1044841252}
+  - component: {fileID: 1044841251}
+  m_Layer: 5
+  m_Name: points
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1044841250
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1044841249}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1420707184}
+  m_RootOrder: 56
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.017528165, y: 0.804556}
+  m_AnchorMax: {x: 0.21000001, y: 0.95566976}
+  m_AnchoredPosition: {x: -0.005004883, y: 0}
+  m_SizeDelta: {x: 0.01001, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1044841251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1044841249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5254902}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 3
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Spirits:'
+--- !u!222 &1044841252
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1044841249}
 --- !u!1 &1137072258
 GameObject:
   m_ObjectHideFlags: 0
@@ -6076,6 +6226,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1137072260
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6280,6 +6433,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1148821470
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6484,6 +6640,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1191911636
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6688,6 +6847,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1204953777
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6892,6 +7054,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1209409686
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7096,6 +7261,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1240312501
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7300,6 +7468,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1260379687
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7504,6 +7675,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1261295829
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7708,6 +7882,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1263391938
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7912,6 +8089,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1374400122
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8092,7 +8272,7 @@ GameObject:
   - component: {fileID: 1415150963}
   - component: {fileID: 1415150962}
   m_Layer: 5
-  m_Name: Spirit (2)
+  m_Name: Spirit (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8255,6 +8435,7 @@ RectTransform:
   - {fileID: 1209409686}
   - {fileID: 526701592}
   - {fileID: 681375937}
+  - {fileID: 1044841250}
   m_Father: {fileID: 325164547}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8382,6 +8563,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1507571725
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8562,7 +8746,7 @@ GameObject:
   - component: {fileID: 1510182128}
   - component: {fileID: 1510182127}
   m_Layer: 5
-  m_Name: Spirit (4)
+  m_Name: Spirit (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8696,6 +8880,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1568758343
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8900,6 +9087,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1591673715
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9080,7 +9270,7 @@ GameObject:
   - component: {fileID: 1655754102}
   - component: {fileID: 1655754101}
   m_Layer: 5
-  m_Name: Spirit (3)
+  m_Name: Spirit (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9214,6 +9404,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1716142156
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9418,6 +9611,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1727537705
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9675,6 +9871,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1791761963
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9879,6 +10078,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1814269084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10083,6 +10285,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1817138569
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10287,6 +10492,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1854108293
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10491,6 +10699,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1871934137
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10695,6 +10906,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1877244513
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10972,6 +11186,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!114 &1917584608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11105,6 +11322,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1950533264
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11309,6 +11529,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &1958276628
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11513,6 +11736,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &2001220736
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11717,6 +11943,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &2011066039
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11921,6 +12150,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &2031217561
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12125,6 +12357,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &2117049626
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12391,6 +12626,9 @@ MonoBehaviour:
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
+  _isSpirit: 0
+  _kind: 
+  _number: 0
 --- !u!224 &2144438766
 RectTransform:
   m_ObjectHideFlags: 0

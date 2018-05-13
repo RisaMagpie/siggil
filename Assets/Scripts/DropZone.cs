@@ -27,7 +27,10 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
            // if (typeOfCard == obj.typeOfCard || isForAllCards)
             //{
                 obj.parentToReturnTo = this.transform;
+            if (gameObject.name == "DropZone")
+                Destroy(eventData.pointerDrag);
             //}
         }
+
     }
 }
