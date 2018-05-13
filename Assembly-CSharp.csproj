@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\CardController.cs" />
      <Compile Include="Assets\Scripts\Draggable.cs" />
      <Compile Include="Assets\Scripts\DropZone.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\MenuBehaviour.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/risam/OneDrive/Documents/Sveta/game/Siggil/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

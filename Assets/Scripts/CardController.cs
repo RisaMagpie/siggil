@@ -4,70 +4,67 @@ using UnityEngine;
 
 public class CardController : MonoBehaviour {
 
-    public static bool cantDoAnything = false;
+    //public static bool cantDoAnything = false;
 
     [SerializeField]
-    private int _state;
+    private bool _state;
     [SerializeField]
     private int _cardValue;
+
+   // [SerializeField]
+   // private string _cardClass;
+
     [SerializeField]
     private bool _initialized = false;
 
-    private Sprite _cardBack;
-    private Sprite _cardFace;
+    public Sprite _cardBack;
+    public Sprite _cardFace;
 
     private GameObject _manager;
 
     void Start()
     {
-        _state = 0;
+        _state = true;//create other state for each card
         _manager = GameObject.FindGameObjectWithTag("Manager");
     }
 
-    public void setupGraphics()
+    public void SetupGraphics()
     {
-        _cardBack = _manager.GetComponent<GameManager>().getCardBack();
-        _cardFace = _manager.GetComponent<GameManager>().getCardFace(_cardValue);
-
-        flipCard();
+        _cardBack = _manager.GetComponent<GameManager>().GetCardBack();
+        _cardFace = _manager.GetComponent<GameManager>().GetCardFace(_cardValue);
+        FlipCard();
     }
 
-    void flipCard()
+    public void FlipCard()
     {
-        if (_state == 0 && !cantDoAnything)
+        _state = !_state;
+
+        if (!_state)
             GetComponent<Image>().sprite = _cardBack;
-        else if (_state ==1 && !cantDoAnything)
+        else if (_state)
             GetComponent<Image>().sprite = _cardFace;
     }
 
-    public int cardValue
+    public int CardValue
     {
         get { return _cardValue; }
         set { _cardValue = value; }
     }
 
-    public int state
+    public bool State
     {
         get { return _state; }
         set { _state = value; }
     }
 
-    public bool initialized
+    public bool Initialized
     {
         get { return _initialized; }
-        set { initialized = value; }
+        set { _initialized = value; }
     }
 
-    public void falseCheck() {
-        StartCoroutine(pause ());
-    }
-
-    IEnumerator pause()
-    {
-        yield return new WaitForSeconds(1);
-        if (_state == 0)
-            GetComponent<Image>().sprite = _cardBack;
-        else if (state == 1)
+    public void FlipOnClick() {
+        if (_state)
             GetComponent<Image>().sprite = _cardFace;
     }
 }
