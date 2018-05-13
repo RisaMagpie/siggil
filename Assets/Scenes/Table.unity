@@ -151,8 +151,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &40083067
 RectTransform:
   m_ObjectHideFlags: 0
@@ -357,8 +355,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &74244756
 RectTransform:
   m_ObjectHideFlags: 0
@@ -563,8 +559,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &108815840
 RectTransform:
   m_ObjectHideFlags: 0
@@ -769,8 +763,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &184854309
 RectTransform:
   m_ObjectHideFlags: 0
@@ -975,8 +967,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &228229443
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1181,8 +1171,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &259769405
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1473,8 +1461,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &314084962
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1783,8 +1769,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &329295128
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1989,8 +1973,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &353831715
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2195,8 +2177,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &358074335
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2401,8 +2381,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &387075964
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2607,8 +2585,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &488018592
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2813,8 +2789,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &489721501
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3019,8 +2993,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &518011811
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3351,8 +3323,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &550240594
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3564,7 +3534,7 @@ Prefab:
     - target: {fileID: 224815370160162784, guid: 138ec79d49efceb4db41f51681e7b02d,
         type: 2}
       propertyPath: m_RootOrder
-      value: 56
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 224815370160162784, guid: 138ec79d49efceb4db41f51681e7b02d,
         type: 2}
@@ -3678,8 +3648,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &725694991
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3960,6 +3928,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 138ec79d49efceb4db41f51681e7b02d, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &769906631 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1209652940376498, guid: 138ec79d49efceb4db41f51681e7b02d,
+    type: 2}
+  m_PrefabInternal: {fileID: 681375936}
 --- !u!1 &810453787
 GameObject:
   m_ObjectHideFlags: 0
@@ -3998,8 +3971,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &810453789
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4314,8 +4285,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &884914006
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4520,8 +4489,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &891448313
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4726,8 +4693,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &898093951
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4932,8 +4897,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &935079397
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5138,8 +5101,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &950053550
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5344,8 +5305,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1016053965
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5666,7 +5625,7 @@ MonoBehaviour:
   - {fileID: 488018590}
   - {fileID: 1209409684}
   - {fileID: 526701590}
-  - {fileID: 0}
+  - {fileID: 769906631}
 --- !u!1 &1036262953
 GameObject:
   m_ObjectHideFlags: 0
@@ -5705,8 +5664,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1036262955
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5911,8 +5868,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1043966019
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6117,8 +6072,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1137072260
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6323,8 +6276,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1148821470
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6529,8 +6480,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1191911636
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6735,8 +6684,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1204953777
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6941,8 +6888,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1209409686
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7147,8 +7092,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1240312501
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7353,8 +7296,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1260379687
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7559,8 +7500,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1261295829
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7765,8 +7704,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1263391938
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7971,8 +7908,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1374400122
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8443,8 +8378,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1507571725
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8759,8 +8692,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1568758343
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8965,8 +8896,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1591673715
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9281,8 +9210,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1716142156
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9487,8 +9414,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1727537705
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9746,8 +9671,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1791761963
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9952,8 +9875,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1814269084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10158,8 +10079,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1817138569
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10364,8 +10283,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1854108293
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10570,8 +10487,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1871934137
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10776,8 +10691,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1877244513
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11055,8 +10968,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!114 &1917584608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11190,8 +11101,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1950533264
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11396,8 +11305,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &1958276628
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11602,8 +11509,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &2001220736
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11808,8 +11713,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &2011066039
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12014,8 +11917,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &2031217561
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12220,8 +12121,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &2117049626
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12488,8 +12387,6 @@ MonoBehaviour:
   _state: 0
   _cardValue: 0
   _initialized: 0
-  _cardBack: {fileID: 0}
-  _cardFace: {fileID: 0}
 --- !u!224 &2144438766
 RectTransform:
   m_ObjectHideFlags: 0

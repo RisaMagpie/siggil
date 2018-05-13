@@ -10,15 +10,15 @@ public class CardController : MonoBehaviour {
     private bool _state;
     [SerializeField]
     private int _cardValue;
-
-   // [SerializeField]
-   // private string _cardClass;
-
     [SerializeField]
     private bool _initialized = false;
 
-    public Sprite _cardBack;
-    public Sprite _cardFace;
+    // [SerializeField]
+    // private string _cardClass;
+
+
+    private Sprite _cardBack;
+    private Sprite _cardFace;
 
     private GameObject _manager;
 
@@ -61,10 +61,5 @@ public class CardController : MonoBehaviour {
     {
         get { return _initialized; }
         set { _initialized = value; }
-    }
-
-    public void FlipOnClick() {
-        if (_state)
-            GetComponent<Image>().sprite = _cardFace;
     }
 }
