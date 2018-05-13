@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &40083067
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &74244756
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &108815840
@@ -760,7 +760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &184854309
@@ -964,7 +964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &228229443
@@ -1168,7 +1168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &259769405
@@ -1458,7 +1458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &314084962
@@ -1766,7 +1766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &329295128
@@ -1970,7 +1970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &353831715
@@ -2174,7 +2174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &358074335
@@ -2378,7 +2378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &387075964
@@ -2582,7 +2582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &488018592
@@ -2786,7 +2786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &489721501
@@ -2990,7 +2990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &518011811
@@ -3282,6 +3282,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: FlipCard
       objectReference: {fileID: 0}
+    - target: {fileID: 1968851920422926, guid: 960728e17f0718a4a8d987aa871defea, type: 2}
+      propertyPath: m_Name
+      value: card (0)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 960728e17f0718a4a8d987aa871defea, type: 2}
   m_IsPrefabParent: 0
@@ -3320,7 +3324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &550240594
@@ -3645,7 +3649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &725694991
@@ -3968,7 +3972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &810453789
@@ -4282,7 +4286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &884914006
@@ -4486,7 +4490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &891448313
@@ -4690,7 +4694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &898093951
@@ -4894,7 +4898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &935079397
@@ -5098,7 +5102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &950053550
@@ -5302,7 +5306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1016053965
@@ -5661,7 +5665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1036262955
@@ -5865,7 +5869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1043966019
@@ -6069,7 +6073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1137072260
@@ -6273,7 +6277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1148821470
@@ -6477,7 +6481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1191911636
@@ -6681,7 +6685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1204953777
@@ -6885,7 +6889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1209409686
@@ -7089,7 +7093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1240312501
@@ -7293,7 +7297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1260379687
@@ -7497,7 +7501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1261295829
@@ -7701,7 +7705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1263391938
@@ -7905,7 +7909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1374400122
@@ -8375,7 +8379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1507571725
@@ -8689,7 +8693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1568758343
@@ -8893,7 +8897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1591673715
@@ -9207,7 +9211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1716142156
@@ -9411,7 +9415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1727537705
@@ -9668,7 +9672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1791761963
@@ -9872,7 +9876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1814269084
@@ -10076,7 +10080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1817138569
@@ -10280,7 +10284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1854108293
@@ -10484,7 +10488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1871934137
@@ -10688,7 +10692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1877244513
@@ -10875,7 +10879,7 @@ GameObject:
   - component: {fileID: 1917584607}
   - component: {fileID: 1917584605}
   m_Layer: 0
-  m_Name: card
+  m_Name: card (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10965,7 +10969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!114 &1917584608
@@ -11098,7 +11102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1950533264
@@ -11302,7 +11306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &1958276628
@@ -11506,7 +11510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &2001220736
@@ -11710,7 +11714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &2011066039
@@ -11914,7 +11918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &2031217561
@@ -12118,7 +12122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &2117049626
@@ -12384,7 +12388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _state: 0
+  _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
 --- !u!224 &2144438766

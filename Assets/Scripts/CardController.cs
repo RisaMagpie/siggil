@@ -7,7 +7,7 @@ public class CardController : MonoBehaviour {
     //public static bool cantDoAnything = false;
 
     [SerializeField]
-    private bool _state;
+    private bool _isFaceUp;
     [SerializeField]
     private int _cardValue;
     [SerializeField]
@@ -24,7 +24,7 @@ public class CardController : MonoBehaviour {
 
     void Start()
     {
-        _state = true;//create other state for each card
+        _isFaceUp = true;
         _manager = GameObject.FindGameObjectWithTag("Manager");
     }
 
@@ -37,11 +37,9 @@ public class CardController : MonoBehaviour {
 
     public void FlipCard()
     {
-        _state = !_state;
+        _isFaceUp = !_isFaceUp;
 
-        if (!_state)
-            GetComponent<Image>().sprite = _cardBack;
-        else if (_state)
+        if(_isFaceUp)
             GetComponent<Image>().sprite = _cardFace;
     }
 
@@ -51,10 +49,10 @@ public class CardController : MonoBehaviour {
         set { _cardValue = value; }
     }
 
-    public bool State
+    public bool IsFaceUp
     {
-        get { return _state; }
-        set { _state = value; }
+        get { return _isFaceUp; }
+        set { _isFaceUp = value; }
     }
 
     public bool Initialized
