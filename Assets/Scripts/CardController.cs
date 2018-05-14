@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CardController : MonoBehaviour {
 
-    public enum CardKind {STONE,DEER,LEAF,TURTLE,DRAGON,WATER,FEATHER};
+    public enum CardKind {STONE,DEER,LEAF,TURTLE,CLOUD,WATER,FEATHER};
 
     [SerializeField]
     private bool _isFaceUp;
@@ -15,7 +15,7 @@ public class CardController : MonoBehaviour {
     [SerializeField]
     private bool _isSpirit;
     [SerializeField]
-    private string _kind;
+    private CardKind _kind;
     [SerializeField]
     private int _number;
 
@@ -70,7 +70,7 @@ public class CardController : MonoBehaviour {
         set { _isSpirit = value; }
     }
 
-    public string Kind
+    public CardKind Kind
     {
         get { return _kind; }
         set { _kind = value; }
