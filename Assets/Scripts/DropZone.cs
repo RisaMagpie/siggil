@@ -46,7 +46,15 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
                 if (gameObject.name == "DropZone")
                     Destroy(eventData.pointerDrag);
             }
+            else
+            {
+                obj.transform.position = obj.startPos;
+                obj.parentToReturnTo = obj.oldPlaceholderParent;
+                obj.transform.SetAsLastSibling();
+                obj.GetComponent<CanvasGroup>().blocksRaycasts = true;//TODO find a mistake
+            }
+           
         }
-
+        
     }
 }

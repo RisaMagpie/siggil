@@ -10,10 +10,7 @@ public class GameManager : MonoBehaviour {
     public Sprite[] cardFace;
     public Sprite cardBack;
     public GameObject[] cards;
-    public Text numOfSpirits;
-
-    
-
+    public Text numOfSpirits; 
 
     private bool _init = false;
     private int _numOfSpirits = 0;    
@@ -25,7 +22,6 @@ public class GameManager : MonoBehaviour {
         {
             InitializeCards();
         }
-
 
         //if (Input.GetMouseButtonUp(0))
           //  CheckCards();

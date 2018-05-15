@@ -152,9 +152,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &40083067
 RectTransform:
   m_ObjectHideFlags: 0
@@ -219,6 +219,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &40083071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,9 +363,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &74244756
 RectTransform:
   m_ObjectHideFlags: 0
@@ -427,6 +430,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &74244760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,9 +574,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &108815840
 RectTransform:
   m_ObjectHideFlags: 0
@@ -635,6 +641,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &108815844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -776,9 +785,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &184854309
 RectTransform:
   m_ObjectHideFlags: 0
@@ -843,6 +852,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &184854313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -984,9 +996,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &228229443
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1051,6 +1063,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &228229447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1192,9 +1207,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &259769405
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1259,6 +1274,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &259769409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1486,9 +1504,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &314084962
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1553,6 +1571,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &314084966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1798,9 +1819,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &329295128
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1865,6 +1886,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &329295132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2006,9 +2030,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &353831715
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2073,6 +2097,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &353831719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2214,9 +2241,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &358074335
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2281,6 +2308,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &358074339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2422,9 +2452,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &387075964
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2489,6 +2519,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &387075968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2630,9 +2663,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &488018592
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2697,6 +2730,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &488018596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2838,9 +2874,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &489721501
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2905,6 +2941,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &489721505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3046,9 +3085,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &518011811
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3113,6 +3152,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &518011815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3384,9 +3426,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &550240594
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3451,6 +3493,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &550240598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3713,9 +3758,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &725694991
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3780,6 +3825,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &725694995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4040,9 +4088,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &810453789
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4107,6 +4155,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &810453793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4358,9 +4409,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &884914006
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4425,6 +4476,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &884914010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4566,9 +4620,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &891448313
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4633,6 +4687,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &891448317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4774,9 +4831,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &898093951
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4841,6 +4898,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &898093955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4982,9 +5042,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &935079397
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5049,6 +5109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &935079401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5190,9 +5253,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &950053550
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5257,6 +5320,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &950053554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5398,9 +5464,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1016053965
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5465,6 +5531,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1016053969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5762,9 +5831,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1036262955
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5829,6 +5898,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1036262959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5970,9 +6042,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1043966019
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6037,6 +6109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1043966023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6252,9 +6327,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1137072260
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6319,6 +6394,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1137072264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6460,9 +6538,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1148821470
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6527,6 +6605,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1148821474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6668,9 +6749,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1191911636
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6735,6 +6816,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1191911640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6876,9 +6960,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1204953777
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6943,6 +7027,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1204953781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7084,9 +7171,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1209409686
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7151,6 +7238,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1209409690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7292,9 +7382,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1240312501
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7359,6 +7449,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1240312505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7500,9 +7593,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1260379687
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7567,6 +7660,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1260379691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7708,9 +7804,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1261295829
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7775,6 +7871,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1261295833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7916,9 +8015,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1263391938
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7983,6 +8082,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1263391942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8124,9 +8226,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1374400122
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8191,6 +8293,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1374400126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8599,9 +8704,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1507571725
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8666,6 +8771,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1507571729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8917,9 +9025,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1568758343
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8984,6 +9092,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1568758347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9125,9 +9236,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1591673715
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9192,6 +9303,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1591673719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9443,9 +9557,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1716142156
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9510,6 +9624,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1716142160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9651,9 +9768,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1727537705
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9718,6 +9835,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1727537709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9925,9 +10045,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1791761963
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9992,6 +10112,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1791761967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10133,9 +10256,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1814269084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10200,6 +10323,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1814269088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10341,9 +10467,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1817138569
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10408,6 +10534,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1817138573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10549,9 +10678,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1854108293
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10616,6 +10745,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1854108297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10757,9 +10889,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1871934137
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10824,6 +10956,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1871934141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10965,9 +11100,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1877244513
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11032,6 +11167,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1877244517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11246,9 +11384,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!114 &1917584608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11294,6 +11432,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1917584611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11383,9 +11524,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1950533264
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11450,6 +11591,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1950533268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11591,9 +11735,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &1958276628
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11658,6 +11802,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &1958276632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11799,9 +11946,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &2001220736
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11866,6 +12013,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &2001220740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12007,9 +12157,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &2011066039
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12074,6 +12224,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &2011066043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12215,9 +12368,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &2031217561
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12282,6 +12435,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &2031217565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12423,9 +12579,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &2117049626
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12490,6 +12646,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &2117049630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12693,9 +12852,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
+  _type: 0
   _kind: 0
   _number: 0
-  typeOfZone: 0
 --- !u!224 &2144438766
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12760,6 +12919,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  typeOfZone: 0
 --- !u!114 &2144438770
 MonoBehaviour:
   m_ObjectHideFlags: 0

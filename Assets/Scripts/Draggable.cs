@@ -3,24 +3,25 @@ using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.EventSystems;
 
-public class Draggable : MonoBehaviour,  IBeginDragHandler, IDragHandler, IEndDragHandler//proove
+public class Draggable : MonoBehaviour,  IBeginDragHandler, IDragHandler, IEndDragHandler
 {
 
     public Transform parentToReturnTo = null;
     public Transform placeholderParent = null;
+
+    public Vector3 startPos;
+    public Transform oldPlaceholderParent = null;
     GameObject placeholder = null;
 
     public enum ZoneType {ORDINARY,SPIRIT,NOTFORDROP};
     public ZoneType typeOfZone = ZoneType.ORDINARY;
 
-    
-    //public CardController IsSpirit;
-
     public void OnBeginDrag(PointerEventData eventData)
     {
-        //Debug.Log("OnBeginDrag");        
+        
         placeholder = new GameObject();
-        placeholder.transform.SetParent(this.transform.parent);
+        placeholder.transform.SetParent(this.transform.parent);       
+
         LayoutElement place = placeholder.AddComponent<LayoutElement>();
         place.preferredWidth = this.GetComponent<LayoutElement>().preferredWidth;
         place.preferredHeight = this.GetComponent<LayoutElement>().preferredHeight;
@@ -30,15 +31,20 @@ public class Draggable : MonoBehaviour,  IBeginDragHandler, IDragHandler, IEndDr
         placeholder.transform.SetSiblingIndex(this.transform.GetSiblingIndex());
 
         parentToReturnTo = this.transform.parent;
+
         placeholderParent = parentToReturnTo;
+        oldPlaceholderParent = parentToReturnTo;
+        
         this.transform.SetParent(this.transform.parent.parent);
 
-        GetComponent<CanvasGroup>().blocksRaycasts = false;
+        GetComponent<CanvasGroup>().blocksRaycasts = false;        
+        this.startPos = this.transform.position;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         //Debug.Log ("OnDrag");
+
         this.transform.position = eventData.position;
 
         if (placeholder.transform.parent != placeholderParent)
@@ -50,7 +56,6 @@ public class Draggable : MonoBehaviour,  IBeginDragHandler, IDragHandler, IEndDr
         {
             if (this.transform.position.x < placeholderParent.GetChild(i).position.x)
             {
-
                 newSiblingIndex = i;
 
                 if (placeholder.transform.GetSiblingIndex() < newSiblingIndex)
@@ -64,12 +69,16 @@ public class Draggable : MonoBehaviour,  IBeginDragHandler, IDragHandler, IEndDr
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        //Debug.Log("OnEndDrag");
-        this.transform.SetParent(parentToReturnTo);
-        this.transform.SetSiblingIndex(placeholder.transform.GetSiblingIndex());
-        GetComponent<CanvasGroup>().blocksRaycasts = true;
-        Destroy(placeholder);
+        //Debug.Log(oldParentToReturnTo);
+        Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
+       // CardController card = eventData.pointerDrag.GetComponent<CardController>();
+
+        if (obj != null)
+        {
+            this.transform.SetParent(parentToReturnTo);
+            this.transform.SetSiblingIndex(placeholder.transform.GetSiblingIndex());
+            GetComponent<CanvasGroup>().blocksRaycasts = true;
+            Destroy(placeholder);
+        }
     }
-
 }
-
