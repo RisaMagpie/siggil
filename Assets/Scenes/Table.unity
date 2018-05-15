@@ -152,8 +152,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &40083067
 RectTransform:
   m_ObjectHideFlags: 0
@@ -359,8 +360,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &74244756
 RectTransform:
   m_ObjectHideFlags: 0
@@ -566,8 +568,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &108815840
 RectTransform:
   m_ObjectHideFlags: 0
@@ -773,8 +776,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &184854309
 RectTransform:
   m_ObjectHideFlags: 0
@@ -980,8 +984,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &228229443
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1187,8 +1192,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &259769405
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1405,7 +1411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9491d1cecab797e40aa4ec9fcd2f2e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isForAllCards: 1
+  typeOfZone: 0
 --- !u!114 &287346184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1480,8 +1486,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &314084962
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1791,8 +1798,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &329295128
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1998,8 +2006,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &353831715
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2205,8 +2214,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &358074335
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2412,8 +2422,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &387075964
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2619,8 +2630,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &488018592
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2826,8 +2838,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &489721501
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3033,8 +3046,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &518011811
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3370,8 +3384,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &550240594
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3698,8 +3713,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &725694991
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4024,8 +4040,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &810453789
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4243,7 +4260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9491d1cecab797e40aa4ec9fcd2f2e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isForAllCards: 0
+  typeOfZone: 0
 --- !u!114 &820438349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4341,8 +4358,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &884914006
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4548,8 +4566,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &891448313
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4755,8 +4774,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &898093951
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4962,8 +4982,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &935079397
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5169,8 +5190,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &950053550
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5376,8 +5398,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1016053965
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5739,8 +5762,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1036262955
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5946,8 +5970,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1043966019
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6227,8 +6252,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1137072260
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6434,8 +6460,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1148821470
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6641,8 +6668,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1191911636
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6848,8 +6876,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1204953777
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7055,8 +7084,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1209409686
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7262,8 +7292,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1240312501
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7469,8 +7500,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1260379687
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7676,8 +7708,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1261295829
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7883,8 +7916,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1263391938
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8090,8 +8124,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1374400122
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8309,7 +8344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9491d1cecab797e40aa4ec9fcd2f2e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isForAllCards: 0
+  typeOfZone: 1
 --- !u!114 &1415150963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8328,7 +8363,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 3
+  m_Spacing: 0
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -8564,8 +8599,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1507571725
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8783,7 +8819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9491d1cecab797e40aa4ec9fcd2f2e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isForAllCards: 0
+  typeOfZone: 1
 --- !u!114 &1510182128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8802,7 +8838,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 3
+  m_Spacing: 0
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -8881,8 +8917,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1568758343
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9088,8 +9125,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1591673715
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9307,7 +9345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9491d1cecab797e40aa4ec9fcd2f2e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isForAllCards: 0
+  typeOfZone: 1
 --- !u!114 &1655754102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9326,7 +9364,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 3
+  m_Spacing: 0
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -9405,8 +9443,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1716142156
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9612,8 +9651,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1727537705
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9791,6 +9831,7 @@ GameObject:
   - component: {fileID: 1420707184}
   - component: {fileID: 1767214381}
   - component: {fileID: 1767214380}
+  - component: {fileID: 1767214382}
   m_Layer: 5
   m_Name: Table
   m_TagString: Untagged
@@ -9833,6 +9874,18 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1767214379}
+--- !u!114 &1767214382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1767214379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9491d1cecab797e40aa4ec9fcd2f2e74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeOfZone: 2
 --- !u!1 &1791761961
 GameObject:
   m_ObjectHideFlags: 0
@@ -9872,8 +9925,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1791761963
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10079,8 +10133,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1814269084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10286,8 +10341,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1817138569
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10493,8 +10549,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1854108293
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10700,8 +10757,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1871934137
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10907,8 +10965,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1877244513
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11187,8 +11246,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!114 &1917584608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11323,8 +11383,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1950533264
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11530,8 +11591,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &1958276628
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11737,8 +11799,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &2001220736
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11944,8 +12007,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &2011066039
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12151,8 +12215,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &2031217561
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12358,8 +12423,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &2117049626
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12627,8 +12693,9 @@ MonoBehaviour:
   _cardValue: 0
   _initialized: 0
   _isSpirit: 0
-  _kind: 
+  _kind: 0
   _number: 0
+  typeOfZone: 0
 --- !u!224 &2144438766
 RectTransform:
   m_ObjectHideFlags: 0

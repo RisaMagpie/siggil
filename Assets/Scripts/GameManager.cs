@@ -11,7 +11,9 @@ public class GameManager : MonoBehaviour {
     public Sprite cardBack;
     public GameObject[] cards;
     public Text numOfSpirits;
+
     
+
 
     private bool _init = false;
     private int _numOfSpirits = 0;    
@@ -20,7 +22,10 @@ public class GameManager : MonoBehaviour {
 	void Update () {
         numOfSpirits.text = "Spirits: " + _numOfSpirits + "/7";
         if (!_init)
+        {
             InitializeCards();
+        }
+
 
         //if (Input.GetMouseButtonUp(0))
           //  CheckCards();
@@ -60,63 +65,112 @@ public class GameManager : MonoBehaviour {
                 cards[choice].GetComponent<CardController>().Kind = CardController.CardKind.STONE;
                 index= Array.IndexOf(stoneCards, i) + 1;
                 if (index != 8)
+                {
                     cards[choice].GetComponent<CardController>().Number = index;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.ORDINARY;
+                }
                 else
+                {
                     cards[choice].GetComponent<CardController>().Number = 1;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.SPIRIT;
+                    //cards[choice].GetComponent<CardController>().typeOfZone = Draggable.ZoneType.SPIRIT;
+                }
             }
             else if (Array.Exists(deerCards, element => element == i))
             {
                 cards[choice].GetComponent<CardController>().Kind = CardController.CardKind.DEER;
                 index = Array.IndexOf(deerCards, i) + 1;
                 if (index != 8)
+                {
                     cards[choice].GetComponent<CardController>().Number = index;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.ORDINARY;
+                }
                 else
+                {
                     cards[choice].GetComponent<CardController>().Number = 2;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.SPIRIT;
+                    //cards[choice].GetComponent<CardController>().typeOfZone = Draggable.ZoneType.SPIRIT;
+                }
             }
             else if (Array.Exists(leafCards, element => element == i))
             {
                 cards[choice].GetComponent<CardController>().Kind = CardController.CardKind.LEAF;
                 index = Array.IndexOf(leafCards, i) + 1;
                 if (index != 8)
+                {
                     cards[choice].GetComponent<CardController>().Number = index;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.ORDINARY;
+                }
                 else
+                {
                     cards[choice].GetComponent<CardController>().Number = 3;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.SPIRIT;
+                    //cards[choice].GetComponent<CardController>().typeOfZone = Draggable.ZoneType.SPIRIT;
+                }
             }
             else if (Array.Exists(turtleCards, element => element == i))
             {
                 cards[choice].GetComponent<CardController>().Kind = CardController.CardKind.TURTLE;
                 index = Array.IndexOf(turtleCards, i) + 1;
                 if (index != 8)
+                {
                     cards[choice].GetComponent<CardController>().Number = index;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.ORDINARY;
+                }
                 else
+                {
                     cards[choice].GetComponent<CardController>().Number = 4;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.SPIRIT;
+                    // cards[choice].GetComponent<CardController>().typeOfZone = Draggable.ZoneType.SPIRIT;
+                }
             }
             else if (Array.Exists(cloudCards, element => element == i))
             {
                 cards[choice].GetComponent<CardController>().Kind = CardController.CardKind.CLOUD;
                 index = Array.IndexOf(cloudCards, i) + 1;
                 if (index != 8)
+                {
                     cards[choice].GetComponent<CardController>().Number = index;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.ORDINARY;
+                }
                 else
+                {
                     cards[choice].GetComponent<CardController>().Number = 5;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.SPIRIT;
+                    //cards[choice].GetComponent<CardController>().typeOfZone = Draggable.ZoneType.SPIRIT;
+                }
             }
             else if (Array.Exists(waterCards, element => element == i))
             {
                 cards[choice].GetComponent<CardController>().Kind = CardController.CardKind.WATER;
                 index = Array.IndexOf(waterCards, i) + 1;
                 if (index != 8)
+                {
                     cards[choice].GetComponent<CardController>().Number = index;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.ORDINARY;
+                }
                 else
+                {
                     cards[choice].GetComponent<CardController>().Number = 6;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.SPIRIT;
+                    //  cards[choice].GetComponent<CardController>().typeOfZone = Draggable.ZoneType.SPIRIT;
+                }
             }
             else
             {
                 cards[choice].GetComponent<CardController>().Kind = CardController.CardKind.FEATHER;
                 index = Array.IndexOf(featherCards, i) + 1;
                 if (index != 8)
+                {
                     cards[choice].GetComponent<CardController>().Number = index;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.ORDINARY;
+                }
                 else
+                {
                     cards[choice].GetComponent<CardController>().Number = 7;
+                    cards[choice].GetComponent<CardController>().Type = Draggable.ZoneType.SPIRIT;
+                    // cards[choice].GetComponent<CardController>().typeOfZone = Draggable.ZoneType.SPIRIT;
+                }
             }
 
         }

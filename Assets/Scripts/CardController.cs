@@ -5,6 +5,8 @@ using UnityEngine;
 public class CardController : MonoBehaviour {
 
     public enum CardKind {STONE,DEER,LEAF,TURTLE,CLOUD,WATER,FEATHER};
+    //public Draggable.ZoneType typeOfZone = Draggable.ZoneType.ORDINARY;
+    //public enum CardType { SPIRIT,ORDINARY };    
 
     [SerializeField]
     private bool _isFaceUp;
@@ -15,9 +17,14 @@ public class CardController : MonoBehaviour {
     [SerializeField]
     private bool _isSpirit;
     [SerializeField]
+    private Draggable.ZoneType _type;
+    [SerializeField]
     private CardKind _kind;
     [SerializeField]
     private int _number;
+
+    //[SerializeField]
+    //public Draggable.ZoneType typeOfZone = Draggable.ZoneType.ORDINARY;
 
 
     private Sprite _cardBack;
@@ -29,6 +36,7 @@ public class CardController : MonoBehaviour {
     {
         _isFaceUp = true;
         _manager = GameObject.FindGameObjectWithTag("Manager");
+        //_type =  Draggable.ZoneType.ORDINARY;
     }
 
     public void SetupGraphics()
@@ -41,7 +49,6 @@ public class CardController : MonoBehaviour {
     public void FlipCard()
     {
         _isFaceUp = !_isFaceUp;
-
         if(_isFaceUp)
             GetComponent<Image>().sprite = _cardFace;
     }
@@ -80,5 +87,11 @@ public class CardController : MonoBehaviour {
     {
         get { return _number; }
         set { _number = value; }
+    }
+
+    public Draggable.ZoneType Type
+    {
+        get { return _type; }
+        set { _type = value; }
     }
 }
