@@ -15,13 +15,15 @@ public class CardController : MonoBehaviour {
     [SerializeField]
     private bool _initialized = false;
     [SerializeField]
-    private bool _isSpirit;
+    private bool _isFree;
     [SerializeField]
     private Draggable.ZoneType _type;
     [SerializeField]
     private CardKind _kind;
     [SerializeField]
     private int _number;
+    [SerializeField]
+    private int _numOfPosition;
 
     //[SerializeField]
     //public Draggable.ZoneType typeOfZone = Draggable.ZoneType.ORDINARY;
@@ -36,7 +38,7 @@ public class CardController : MonoBehaviour {
     {
         _isFaceUp = true;
         _manager = GameObject.FindGameObjectWithTag("Manager");
-        //_type =  Draggable.ZoneType.ORDINARY;
+        _isFree = false;
     }
 
     public void SetupGraphics()
@@ -71,10 +73,10 @@ public class CardController : MonoBehaviour {
         set { _initialized = value; }
     }
 
-    public bool IsSpirit
+    public bool IsFree
     {
-        get { return _isSpirit; }
-        set { _isSpirit = value; }
+        get { return _isFree; }
+        set { _isFree = value; }
     }
 
     public CardKind Kind
@@ -87,6 +89,12 @@ public class CardController : MonoBehaviour {
     {
         get { return _number; }
         set { _number = value; }
+    }
+
+    public int NumOfPosition
+    {
+        get { return _numOfPosition; }
+        set { _numOfPosition = value; }
     }
 
     public Draggable.ZoneType Type

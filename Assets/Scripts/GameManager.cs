@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour {
     public Sprite[] cardFace;
     public Sprite cardBack;
     public GameObject[] cards;
-    public Text numOfSpirits; 
+    public Text numOfSpirits;
+    public List<int> cardsInGame;
 
     private bool _init = false;
     private int _numOfSpirits = 0;    
@@ -49,13 +50,9 @@ public class GameManager : MonoBehaviour {
                 test = !(cards[choice].GetComponent<CardController>().Initialized);
             }
             cards[choice].GetComponent<CardController>().CardValue = i;
+            cards[choice].GetComponent<CardController>().NumOfPosition = choice;
             cards[choice].GetComponent<CardController>().Initialized = true;
-
-            if (i > 47 && i!=55)
-                cards[choice].GetComponent<CardController>().IsSpirit = true;
-            else
-                cards[choice].GetComponent<CardController>().IsSpirit = false;
-
+            
             if(Array.Exists(stoneCards, element => element == i))
             {
                 cards[choice].GetComponent<CardController>().Kind = CardController.CardKind.STONE;
@@ -175,6 +172,9 @@ public class GameManager : MonoBehaviour {
         foreach (int num in cardNumList)
             cards[num].GetComponent<CardController>().IsFaceUp = false;
 
+        cards[27].GetComponent<CardController>().IsFree = true;
+        cards[55].GetComponent<CardController>().IsFree = true;
+
         foreach (GameObject c in cards)
             c.GetComponent<CardController>().SetupGraphics();
 
@@ -190,6 +190,111 @@ public class GameManager : MonoBehaviour {
     public Sprite GetCardFace(int i)
     {
         return cardFace[i-1];
+    }
+
+    public void SetFreeCards(int numOfPrevCard)
+    {
+        switch (numOfPrevCard)
+        {
+            //first level
+            case 27:
+                {
+                    cardsInGame.Add(27);
+                    AddNewFreeCard(25);
+                    AddNewFreeCard(26);
+                    break;
+                }
+            case 55:
+                {
+                    cardsInGame.Add(55);
+                    AddNewFreeCard(53);
+                    AddNewFreeCard(54);
+                    break;
+                }
+            //second level
+            case 25:
+                {
+                    cardsInGame.Add(25);
+                    AddNewFreeCard(22);
+                    if (cardsInGame.Exists(x => x == 26)) { AddNewFreeCard(23); }
+                    break;
+                }
+            case 26:
+                {
+                    cardsInGame.Add(26);
+                    AddNewFreeCard(24);
+                    if (cardsInGame.Exists(x => x == 25)) { AddNewFreeCard(23); }
+                    break;
+                }
+            case 53:
+                {
+                    cardsInGame.Add(53);
+                    AddNewFreeCard(50);
+                    if (cardsInGame.Exists(x => x == 54)) { AddNewFreeCard(51); }
+                    break;
+                }
+            case 54:
+                {
+                    cardsInGame.Add(54);
+                    AddNewFreeCard(52);
+                    if (cardsInGame.Exists(x => x == 53)) { AddNewFreeCard(51); }
+                    break;
+                }
+                //third level
+                /*
+                case 22:
+                    {
+                    cardsInGame.Add();
+                        AddNewFreeCard();
+                        if (freeCards.Exists(x => x == 26)) { AddNewFreeCard(23); }
+                        break;
+                    }
+                case 23:
+                    {
+                    cardsInGame.Add();
+                        AddNewFreeCard();
+                        if (freeCards.Exists(x => x == 25)) { AddNewFreeCard(23); }
+                        break;
+                    }
+                case 24:
+                    {
+                    cardsInGame.Add();
+                        AddNewFreeCard();
+                        if (freeCards.Exists(x => x == 26)) { AddNewFreeCard(23); }
+                        break;
+                    }
+                case 50:
+                    {
+                    cardsInGame.Add();
+                        AddNewFreeCard();
+                        if (freeCards.Exists(x => x == 25)) { AddNewFreeCard(23); }
+                        break;
+                    }
+                case 51:
+                    {
+                    cardsInGame.Add();
+                        AddNewFreeCard();
+                        if (freeCards.Exists(x => x == 51)) { AddNewFreeCard(23); }
+                        break;
+                    }
+                case 52:
+                    {
+                    cardsInGame.Add();
+                        AddNewFreeCard();
+                        if (freeCards.Exists(x => x == 25)) { AddNewFreeCard(23); }
+                        break;
+                    }
+                    */
+
+
+        }
+
+    }
+
+    private void AddNewFreeCard(int numOfCard)
+    {
+        cards[numOfCard].GetComponent<CardController>().IsFree = true;
+        cards[numOfCard].GetComponent<CardController>().FlipCard();        
     }
 
    /* void CheckCards()

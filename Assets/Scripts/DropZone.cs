@@ -5,55 +5,87 @@ using UnityEngine.EventSystems;
 public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public Draggable.ZoneType typeOfZone = Draggable.ZoneType.NOTFORDROP;
-
+    private GameObject _manager;
+    void Start()
+    {
+        _manager = GameObject.FindGameObjectWithTag("Manager");
+    }
     public void OnPointerEnter(PointerEventData eventData)
     {
-        //Debug.Log("OnPointerEnter");
-        if (eventData.pointerDrag == null)
-            return;
-
-        Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
-        if (obj != null)
+       // Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
+        if (eventData.pointerDrag != null)
         {
-            obj.placeholderParent = this.transform;
+            Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
+            CardController card = eventData.pointerDrag.GetComponent<CardController>();
+            if (card.IsFree)
+            {
+                //Debug.Log("OnPointerEnter");
+                if (eventData.pointerDrag == null)
+                    return;
+
+                if (obj != null)
+                {
+                    obj.placeholderParent = this.transform;
+                }
+            }
         }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        //Debug.Log("OnPointerExit");
-        if (eventData.pointerDrag == null)
-            return;
-
-        Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
-        if (obj != null && obj.placeholderParent == this.transform)
+        //Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
+        if (eventData.pointerDrag != null)
         {
-            obj.placeholderParent = obj.parentToReturnTo;
+            Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
+            CardController card = eventData.pointerDrag.GetComponent<CardController>();
+
+            if (card != null && card.IsFree)
+            {
+                //Debug.Log("OnPointerExit");
+                if (eventData.pointerDrag == null)
+                    return;
+
+                if (obj != null && obj.placeholderParent == this.transform)
+                {
+                    obj.placeholderParent = obj.parentToReturnTo;
+                }
+            }
         }
     }
 
     public void OnDrop(PointerEventData eventData)
     {
-        Debug.Log(eventData.pointerDrag.name + " was dropped on " + gameObject.name);
-
-        Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
-        CardController card = eventData.pointerDrag.GetComponent<CardController>();
-        if (obj != null)
+        //Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
+        if (eventData.pointerDrag != null)
         {
-            if (typeOfZone == card.Type)
+            Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
+            CardController card = eventData.pointerDrag.GetComponent<CardController>();
+
+            if (card != null && card.IsFree)
             {
-                obj.parentToReturnTo = this.transform;
-                if (gameObject.name == "DropZone")
-                    Destroy(eventData.pointerDrag);
+                Debug.Log(eventData.pointerDrag.name + " was dropped on " + gameObject.name);
+                if (typeOfZone == card.Type)
+                {
+                    obj.parentToReturnTo = this.transform;
+                    if (gameObject.name == "DropZone")
+                    {
+                        _manager.GetComponent<GameManager>().SetFreeCards(card.NumOfPosition);
+                        Destroy(eventData.pointerDrag);
+                    }
+
+                    if (gameObject.name == "Hand")
+                    {
+                        _manager.GetComponent<GameManager>().SetFreeCards(card.NumOfPosition);
+                    }
+                }
+                else
+                    {
+                        obj.transform.position = obj.startPos;
+                        obj.parentToReturnTo = obj.oldPlaceholderParent;
+                        obj.transform.SetAsLastSibling();
+                        obj.GetComponent<CanvasGroup>().blocksRaycasts = true;//TODO find a mistake
+                    }                
             }
-            else
-            {
-                obj.transform.position = obj.startPos;
-                obj.parentToReturnTo = obj.oldPlaceholderParent;
-                obj.transform.SetAsLastSibling();
-                obj.GetComponent<CanvasGroup>().blocksRaycasts = true;//TODO find a mistake
-            }
-           
         }
         
     }

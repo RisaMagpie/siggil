@@ -1,7 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System;
 using System.Collections;
 using UnityEngine.EventSystems;
+
+
+using UnityEngine.SceneManagement;
+
+using System.Collections.Generic;
 
 public class Draggable : MonoBehaviour,  IBeginDragHandler, IDragHandler, IEndDragHandler
 {
@@ -16,69 +22,91 @@ public class Draggable : MonoBehaviour,  IBeginDragHandler, IDragHandler, IEndDr
     public enum ZoneType {ORDINARY,SPIRIT,NOTFORDROP};
     public ZoneType typeOfZone = ZoneType.ORDINARY;
 
+    
+
     public void OnBeginDrag(PointerEventData eventData)
     {
-        
-        placeholder = new GameObject();
-        placeholder.transform.SetParent(this.transform.parent);       
+        //Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
+        if (eventData.pointerDrag != null)
+        {
+            CardController card = eventData.pointerDrag.GetComponent<CardController>();
+            if (card != null && card.IsFree)
+            {
+                placeholder = new GameObject();
+                placeholder.transform.SetParent(this.transform.parent);
 
-        LayoutElement place = placeholder.AddComponent<LayoutElement>();
-        place.preferredWidth = this.GetComponent<LayoutElement>().preferredWidth;
-        place.preferredHeight = this.GetComponent<LayoutElement>().preferredHeight;
-        place.flexibleWidth = 0;
-        place.flexibleHeight = 0;
+                LayoutElement place = placeholder.AddComponent<LayoutElement>();
+                place.preferredWidth = this.GetComponent<LayoutElement>().preferredWidth;
+                place.preferredHeight = this.GetComponent<LayoutElement>().preferredHeight;
+                place.flexibleWidth = 0;
+                place.flexibleHeight = 0;
 
-        placeholder.transform.SetSiblingIndex(this.transform.GetSiblingIndex());
+                placeholder.transform.SetSiblingIndex(this.transform.GetSiblingIndex());
 
-        parentToReturnTo = this.transform.parent;
+                parentToReturnTo = this.transform.parent;
 
-        placeholderParent = parentToReturnTo;
-        oldPlaceholderParent = parentToReturnTo;
-        
-        this.transform.SetParent(this.transform.parent.parent);
+                placeholderParent = parentToReturnTo;
+                oldPlaceholderParent = parentToReturnTo;
 
-        GetComponent<CanvasGroup>().blocksRaycasts = false;        
-        this.startPos = this.transform.position;
+                this.transform.SetParent(this.transform.parent.parent);
+
+                GetComponent<CanvasGroup>().blocksRaycasts = false;
+                this.startPos = this.transform.position;
+            }
+        }
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        //Debug.Log ("OnDrag");
-
-        this.transform.position = eventData.position;
-
-        if (placeholder.transform.parent != placeholderParent)
-            placeholder.transform.SetParent(placeholderParent);
-
-        int newSiblingIndex = placeholderParent.childCount;
-
-        for (int i = 0; i < placeholderParent.childCount; i++)
+        //Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
+        if (eventData.pointerDrag != null)
         {
-            if (this.transform.position.x < placeholderParent.GetChild(i).position.x)
+            //Debug.Log ("OnDrag");
+            CardController card = eventData.pointerDrag.GetComponent<CardController>();
+
+            if (card != null && card.IsFree)
             {
-                newSiblingIndex = i;
 
-                if (placeholder.transform.GetSiblingIndex() < newSiblingIndex)
-                    newSiblingIndex--;
+                this.transform.position = eventData.position;
 
-                break;
+                if (placeholder.transform.parent != placeholderParent)
+                    placeholder.transform.SetParent(placeholderParent);
+
+                int newSiblingIndex = placeholderParent.childCount;
+
+                for (int i = 0; i < placeholderParent.childCount; i++)
+                {
+                    if (this.transform.position.x < placeholderParent.GetChild(i).position.x)
+                    {
+                        newSiblingIndex = i;
+
+                        if (placeholder.transform.GetSiblingIndex() < newSiblingIndex)
+                            newSiblingIndex--;
+
+                        break;
+                    }
+                }
+                placeholder.transform.SetSiblingIndex(newSiblingIndex);
             }
         }
-        placeholder.transform.SetSiblingIndex(newSiblingIndex);
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        //Debug.Log(oldParentToReturnTo);
-        Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
-       // CardController card = eventData.pointerDrag.GetComponent<CardController>();
-
-        if (obj != null)
+        //Draggable obj = eventData.pointerDrag.GetComponent<Draggable>();
+        if (eventData.pointerDrag != null)
         {
-            this.transform.SetParent(parentToReturnTo);
-            this.transform.SetSiblingIndex(placeholder.transform.GetSiblingIndex());
-            GetComponent<CanvasGroup>().blocksRaycasts = true;
-            Destroy(placeholder);
+            CardController card = eventData.pointerDrag.GetComponent<CardController>();
+
+            if (card.IsFree)
+            {
+                //Debug.Log(oldParentToReturnTo);
+
+                    this.transform.SetParent(parentToReturnTo);
+                    this.transform.SetSiblingIndex(placeholder.transform.GetSiblingIndex());
+                    GetComponent<CanvasGroup>().blocksRaycasts = true;
+                    Destroy(placeholder);
+            }
         }
     }
 }
