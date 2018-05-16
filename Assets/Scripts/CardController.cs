@@ -51,6 +51,7 @@ public class CardController : MonoBehaviour {
     public void FlipCard()
     {
         _isFaceUp = !_isFaceUp;
+
         if(_isFaceUp)
             GetComponent<Image>().sprite = _cardFace;
     }
