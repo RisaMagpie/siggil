@@ -148,6 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 40083073}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -284,7 +286,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -298,16 +300,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 40083071}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 40083066}
-        m_MethodName: 
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -361,6 +363,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 74244762}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -497,7 +501,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -511,16 +515,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 74244760}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 74244755}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -574,6 +578,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 108815846}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -710,7 +716,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -724,16 +730,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 108815844}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 108815839}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -787,6 +793,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 184854315}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -923,7 +931,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -937,16 +945,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 184854313}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 184854308}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1000,6 +1008,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 228229449}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -1136,7 +1146,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1150,16 +1160,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 228229447}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 228229442}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1213,6 +1223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 259769411}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -1349,7 +1361,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1363,16 +1375,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 259769409}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 259769404}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1514,6 +1526,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 314084968}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -1650,7 +1664,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1664,16 +1678,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 314084966}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 314084961}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1788,6 +1802,7 @@ RectTransform:
   - {fileID: 1510182126}
   - {fileID: 820438347}
   - {fileID: 1420707184}
+  - {fileID: 793664936}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1831,6 +1846,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 329295134}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -1967,7 +1984,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1981,16 +1998,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 329295132}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 329295127}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2044,6 +2061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 353831721}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -2180,7 +2199,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2194,16 +2213,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 353831719}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 353831714}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2257,6 +2276,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 358074341}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -2393,7 +2414,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2407,16 +2428,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 358074339}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 358074334}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2470,6 +2491,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 387075970}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -2606,7 +2629,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2620,16 +2643,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 387075968}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 387075963}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2683,6 +2706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 488018598}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -2819,7 +2844,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2833,16 +2858,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 488018596}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 488018591}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2896,6 +2921,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 489721507}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -3032,7 +3059,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -3046,16 +3073,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 489721505}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 489721500}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3109,6 +3136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 518011817}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -3245,7 +3274,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -3259,16 +3288,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 518011815}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 518011810}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3292,17 +3321,17 @@ GameObject:
   m_PrefabParentObject: {fileID: 1209652940376498, guid: 138ec79d49efceb4db41f51681e7b02d,
     type: 2}
   m_PrefabInternal: {fileID: 730931931}
---- !u!114 &526701591 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114999794218059982, guid: 138ec79d49efceb4db41f51681e7b02d,
-    type: 2}
-  m_PrefabInternal: {fileID: 730931931}
-  m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
 --- !u!224 &526701592 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224815370160162784, guid: 138ec79d49efceb4db41f51681e7b02d,
     type: 2}
   m_PrefabInternal: {fileID: 730931931}
+--- !u!114 &526701593 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114809476945452632, guid: 138ec79d49efceb4db41f51681e7b02d,
+    type: 2}
+  m_PrefabInternal: {fileID: 730931931}
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &535678925
 Prefab:
   m_ObjectHideFlags: 0
@@ -3408,11 +3437,71 @@ Prefab:
     - target: {fileID: 114133129884493624, guid: 960728e17f0718a4a8d987aa871defea,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: CheckOnClick
       objectReference: {fileID: 0}
     - target: {fileID: 1968851920422926, guid: 960728e17f0718a4a8d987aa871defea, type: 2}
       propertyPath: m_Name
       value: card (0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114133129884493624, guid: 960728e17f0718a4a8d987aa871defea,
+        type: 2}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.59460664
+      objectReference: {fileID: 0}
+    - target: {fileID: 114133129884493624, guid: 960728e17f0718a4a8d987aa871defea,
+        type: 2}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.8835687
+      objectReference: {fileID: 0}
+    - target: {fileID: 114133129884493624, guid: 960728e17f0718a4a8d987aa871defea,
+        type: 2}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 224911900384564282, guid: 960728e17f0718a4a8d987aa871defea,
+        type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224911900384564282, guid: 960728e17f0718a4a8d987aa871defea,
+        type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114133129884493624, guid: 960728e17f0718a4a8d987aa871defea,
+        type: 2}
+      propertyPath: m_Colors.m_HighlightedColor.a
+      value: 0.627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 114133129884493624, guid: 960728e17f0718a4a8d987aa871defea,
+        type: 2}
+      propertyPath: m_Transition
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114133129884493624, guid: 960728e17f0718a4a8d987aa871defea,
+        type: 2}
+      propertyPath: m_AnimationTriggers.m_PressedTrigger
+      value: Higlighted
+      objectReference: {fileID: 0}
+    - target: {fileID: 114839131339601732, guid: 960728e17f0718a4a8d987aa871defea,
+        type: 2}
+      propertyPath: buttonAnimator
+      value: 
+      objectReference: {fileID: 1917584614}
+    - target: {fileID: 114839131339601732, guid: 960728e17f0718a4a8d987aa871defea,
+        type: 2}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1917584605}
+    - target: {fileID: 114133129884493624, guid: 960728e17f0718a4a8d987aa871defea,
+        type: 2}
+      propertyPath: m_AnimationTriggers.m_HighlightedTrigger
+      value: Normal
+      objectReference: {fileID: 0}
+    - target: {fileID: 114133129884493624, guid: 960728e17f0718a4a8d987aa871defea,
+        type: 2}
+      propertyPath: m_AnimationTriggers.m_DisabledTrigger
+      value: Normal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 960728e17f0718a4a8d987aa871defea, type: 2}
@@ -3452,6 +3541,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 550240600}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -3588,7 +3679,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -3602,16 +3693,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 550240598}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 550240593}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3731,12 +3822,42 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 681375938}
+      objectReference: {fileID: 40083066}
     - target: {fileID: 114809476945452632, guid: 138ec79d49efceb4db41f51681e7b02d,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: CheckOnClick
       objectReference: {fileID: 0}
+    - target: {fileID: 114809476945452632, guid: 138ec79d49efceb4db41f51681e7b02d,
+        type: 2}
+      propertyPath: m_Transition
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114809476945452632, guid: 138ec79d49efceb4db41f51681e7b02d,
+        type: 2}
+      propertyPath: m_AnimationTriggers.m_HighlightedTrigger
+      value: Normal
+      objectReference: {fileID: 0}
+    - target: {fileID: 114809476945452632, guid: 138ec79d49efceb4db41f51681e7b02d,
+        type: 2}
+      propertyPath: m_AnimationTriggers.m_PressedTrigger
+      value: Higlighted
+      objectReference: {fileID: 0}
+    - target: {fileID: 114809476945452632, guid: 138ec79d49efceb4db41f51681e7b02d,
+        type: 2}
+      propertyPath: m_AnimationTriggers.m_DisabledTrigger
+      value: Normal
+      objectReference: {fileID: 0}
+    - target: {fileID: 114999794218059982, guid: 138ec79d49efceb4db41f51681e7b02d,
+        type: 2}
+      propertyPath: buttonAnimator
+      value: 
+      objectReference: {fileID: 1917584614}
+    - target: {fileID: 114999794218059982, guid: 138ec79d49efceb4db41f51681e7b02d,
+        type: 2}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 769906632}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 138ec79d49efceb4db41f51681e7b02d, type: 2}
   m_IsPrefabParent: 0
@@ -3745,12 +3866,6 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224815370160162784, guid: 138ec79d49efceb4db41f51681e7b02d,
     type: 2}
   m_PrefabInternal: {fileID: 681375936}
---- !u!114 &681375938 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114999794218059982, guid: 138ec79d49efceb4db41f51681e7b02d,
-    type: 2}
-  m_PrefabInternal: {fileID: 681375936}
-  m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
 --- !u!1 &725694989
 GameObject:
   m_ObjectHideFlags: 0
@@ -3786,6 +3901,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 725694997}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -3922,7 +4039,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -3936,16 +4053,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 725694995}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 725694990}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4065,7 +4182,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 526701591}
+      objectReference: {fileID: 40083066}
     - target: {fileID: 1209652940376498, guid: 138ec79d49efceb4db41f51681e7b02d, type: 2}
       propertyPath: m_Name
       value: card (54)
@@ -4073,8 +4190,38 @@ Prefab:
     - target: {fileID: 114809476945452632, guid: 138ec79d49efceb4db41f51681e7b02d,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: CheckOnClick
       objectReference: {fileID: 0}
+    - target: {fileID: 114809476945452632, guid: 138ec79d49efceb4db41f51681e7b02d,
+        type: 2}
+      propertyPath: m_Transition
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114809476945452632, guid: 138ec79d49efceb4db41f51681e7b02d,
+        type: 2}
+      propertyPath: m_AnimationTriggers.m_HighlightedTrigger
+      value: Normal
+      objectReference: {fileID: 0}
+    - target: {fileID: 114809476945452632, guid: 138ec79d49efceb4db41f51681e7b02d,
+        type: 2}
+      propertyPath: m_AnimationTriggers.m_PressedTrigger
+      value: Higlighted
+      objectReference: {fileID: 0}
+    - target: {fileID: 114809476945452632, guid: 138ec79d49efceb4db41f51681e7b02d,
+        type: 2}
+      propertyPath: m_AnimationTriggers.m_DisabledTrigger
+      value: Normal
+      objectReference: {fileID: 0}
+    - target: {fileID: 114999794218059982, guid: 138ec79d49efceb4db41f51681e7b02d,
+        type: 2}
+      propertyPath: buttonAnimator
+      value: 
+      objectReference: {fileID: 1917584614}
+    - target: {fileID: 114999794218059982, guid: 138ec79d49efceb4db41f51681e7b02d,
+        type: 2}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 526701593}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 138ec79d49efceb4db41f51681e7b02d, type: 2}
   m_IsPrefabParent: 0
@@ -4083,6 +4230,81 @@ GameObject:
   m_PrefabParentObject: {fileID: 1209652940376498, guid: 138ec79d49efceb4db41f51681e7b02d,
     type: 2}
   m_PrefabInternal: {fileID: 681375936}
+--- !u!114 &769906632 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114809476945452632, guid: 138ec79d49efceb4db41f51681e7b02d,
+    type: 2}
+  m_PrefabInternal: {fileID: 681375936}
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!1 &793664935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 793664936}
+  - component: {fileID: 793664938}
+  - component: {fileID: 793664937}
+  m_Layer: 5
+  m_Name: Game Over Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &793664936
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 793664935}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1216749910}
+  m_Father: {fileID: 325164547}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.35075802}
+  m_AnchorMax: {x: 1, y: 0.70770705}
+  m_AnchoredPosition: {x: -0.12677002, y: 2.899994}
+  m_SizeDelta: {x: -0.25366, y: 0.1000061}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &793664937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 793664935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.57254905}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &793664938
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 793664935}
 --- !u!1 &810453787
 GameObject:
   m_ObjectHideFlags: 0
@@ -4118,6 +4340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 810453795}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -4254,7 +4478,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -4268,16 +4492,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 810453793}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 810453788}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4441,6 +4665,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 884914012}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -4577,7 +4803,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -4591,16 +4817,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 884914010}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 884914005}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4654,6 +4880,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 891448319}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -4790,7 +5018,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -4804,16 +5032,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 891448317}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 891448312}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4867,6 +5095,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 898093957}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -5003,7 +5233,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -5017,16 +5247,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 898093955}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 898093950}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5080,6 +5310,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 935079403}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -5216,7 +5448,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -5230,16 +5462,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 935079401}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 935079396}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5293,6 +5525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 950053556}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -5429,7 +5663,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -5443,16 +5677,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 950053554}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 950053549}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5506,6 +5740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1016053971}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -5642,7 +5878,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -5656,16 +5892,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1016053969}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1016053964}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5841,6 +6077,15 @@ MonoBehaviour:
   - {fileID: 769906631}
   numOfSpirits: {fileID: 1044841251}
   cardsInGame: 
+  currentCard: {fileID: 0}
+  clickedCards: []
+  GameObjectName: 
+  gameOverPanel: {fileID: 793664935}
+  gameOverText: {fileID: 1216749911}
+  spiritsSlots:
+  - {fileID: 1415150960}
+  - {fileID: 1655754099}
+  - {fileID: 1510182125}
 --- !u!1 &1036262953
 GameObject:
   m_ObjectHideFlags: 0
@@ -5876,6 +6121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1036262961}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -6012,7 +6259,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -6026,16 +6273,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1036262959}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1036262954}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6089,6 +6336,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1043966025}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -6225,7 +6474,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -6239,16 +6488,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1043966023}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1043966018}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6299,7 +6548,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.017528165, y: 0.8772734}
   m_AnchorMax: {x: 0.21000001, y: 0.95566976}
-  m_AnchoredPosition: {x: -0.005004883, y: 0.1000061}
+  m_AnchoredPosition: {x: -0.005004883, y: 0.099975586}
   m_SizeDelta: {x: 0.010040045, y: -0.19999695}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1044841251
@@ -6376,6 +6625,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1137072266}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -6512,7 +6763,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -6526,16 +6777,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1137072264}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1137072259}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6589,6 +6840,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1148821476}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -6725,7 +6978,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -6739,16 +6992,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1148821474}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1148821469}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6802,6 +7055,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1191911642}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -6938,7 +7193,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -6952,16 +7207,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1191911640}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1191911635}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7015,6 +7270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1204953783}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -7151,7 +7408,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -7165,16 +7422,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1204953781}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1204953776}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7228,6 +7485,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1209409692}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -7364,7 +7623,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -7378,16 +7637,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1209409690}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1209409685}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7406,6 +7665,82 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1209409684}
+--- !u!1 &1216749909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1216749910}
+  - component: {fileID: 1216749912}
+  - component: {fileID: 1216749911}
+  m_Layer: 5
+  m_Name: Game Over Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1216749910
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1216749909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 793664936}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.000061035156, y: -0.000061035156}
+  m_SizeDelta: {x: 0.00012207, y: -0.73999023}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1216749911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1216749909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 100
+    m_FontStyle: 2
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Game Over
+
+'
+--- !u!222 &1216749912
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1216749909}
 --- !u!1 &1240312499
 GameObject:
   m_ObjectHideFlags: 0
@@ -7441,6 +7776,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1240312507}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -7577,7 +7914,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -7591,16 +7928,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1240312505}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1240312500}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7654,6 +7991,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1260379693}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -7790,7 +8129,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -7804,16 +8143,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1260379691}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1260379686}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7867,6 +8206,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1261295835}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -8003,7 +8344,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -8017,16 +8358,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1261295833}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1261295828}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8080,6 +8421,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1263391944}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -8216,7 +8559,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -8230,16 +8573,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1263391942}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1263391937}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8293,6 +8636,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1374400128}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -8429,7 +8774,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -8443,16 +8788,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1374400126}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1374400121}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8773,6 +9118,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1507571731}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -8909,7 +9256,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -8923,16 +9270,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1507571729}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1507571724}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8987,7 +9334,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.8941563, y: 0.5954815}
   m_AnchorMax: {x: 1, y: 0.79559255}
-  m_AnchoredPosition: {x: -1.2504883, y: -0.08930969}
+  m_AnchoredPosition: {x: -1.2504883, y: -0.08929443}
   m_SizeDelta: {x: 1.9938, y: 8.0186}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1510182127
@@ -9096,6 +9443,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1568758349}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -9232,7 +9581,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -9246,16 +9595,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1568758347}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1568758342}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9309,6 +9658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1591673721}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -9445,7 +9796,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -9459,16 +9810,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1591673719}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1591673714}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9632,6 +9983,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1716142162}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -9768,7 +10121,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -9782,16 +10135,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1716142160}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1716142155}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9845,6 +10198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1727537711}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -9981,7 +10336,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -9995,16 +10350,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1727537709}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1727537704}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10124,6 +10479,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1791761969}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -10260,7 +10617,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -10274,16 +10631,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1791761967}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1791761962}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10337,6 +10694,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1814269090}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -10473,7 +10832,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -10487,16 +10846,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1814269088}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1814269083}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10550,6 +10909,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1817138575}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -10686,7 +11047,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -10700,16 +11061,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1817138573}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1817138568}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10763,6 +11124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1854108299}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -10899,7 +11262,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -10913,16 +11276,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1854108297}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1854108292}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10976,6 +11339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1871934143}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -11112,7 +11477,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -11126,16 +11491,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1871934141}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1871934136}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11189,6 +11554,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1877244519}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -11325,7 +11692,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -11339,16 +11706,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1877244517}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1877244512}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11384,6 +11751,7 @@ GameObject:
   - component: {fileID: 1917584608}
   - component: {fileID: 1917584607}
   - component: {fileID: 1917584605}
+  - component: {fileID: 1917584614}
   m_Layer: 0
   m_Name: card (0)
   m_TagString: Untagged
@@ -11409,10 +11777,10 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.7254902, g: 0.7254902, b: 0.7254902, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -11423,16 +11791,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1917584612}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1917584607}
-        m_MethodName: 
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11453,7 +11821,7 @@ RectTransform:
   m_GameObject: {fileID: 1917584604}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000128, y: 1.0000128, z: 1.0000124}
+  m_LocalScale: {x: 1.0000128, y: 1.000013, z: 1.000012}
   m_Children: []
   m_Father: {fileID: 1420707184}
   m_RootOrder: 0
@@ -11475,6 +11843,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1917584605}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -11582,6 +11952,24 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 535678925}
   m_GameObject: {fileID: 1917584604}
+--- !u!95 &1917584614
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1917584604}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 82e7eaca929d2294eb7869513f40b162, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1950533262
 GameObject:
   m_ObjectHideFlags: 0
@@ -11617,6 +12005,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1950533270}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -11753,7 +12143,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -11767,16 +12157,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1950533268}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1950533263}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11830,6 +12220,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 1958276634}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -11966,7 +12358,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -11980,16 +12372,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1958276632}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1958276627}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12117,6 +12509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 2001220742}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -12253,7 +12647,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -12267,16 +12661,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2001220740}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2001220735}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12330,6 +12724,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 2011066045}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -12466,7 +12862,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -12480,16 +12876,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2011066043}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2011066038}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12543,6 +12939,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 2031217567}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -12679,7 +13077,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -12693,16 +13091,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2031217565}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2031217560}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12830,6 +13228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 2117049632}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -12966,7 +13366,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -12980,16 +13380,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2117049630}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2117049625}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13105,6 +13505,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ba7535d16ea3409d79d171a794665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAnimator: {fileID: 1917584614}
+  button: {fileID: 2144438772}
   _isFaceUp: 0
   _cardValue: 0
   _initialized: 0
@@ -13241,7 +13643,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -13255,16 +13657,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: Higlighted
+    m_DisabledTrigger: Normal
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2144438770}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2144438765}
-        m_MethodName: 
+      - m_Target: {fileID: 40083066}
+        m_MethodName: CheckOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

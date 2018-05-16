@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class CardController : MonoBehaviour {
 
+
+    public Animator buttonAnimator;
+    public Button button;
+
+
+    /// <summary>
+    /// //
+    /// </summary>
     public enum CardKind {STONE,DEER,LEAF,TURTLE,CLOUD,WATER,FEATHER};
     //public Draggable.ZoneType typeOfZone = Draggable.ZoneType.ORDINARY;
     //public enum CardType { SPIRIT,ORDINARY };    
@@ -24,6 +32,8 @@ public class CardController : MonoBehaviour {
     private int _number;
     [SerializeField]
     private int _numOfPosition;
+    [SerializeField]
+    private string _ZoneName;
 
     //[SerializeField]
     //public Draggable.ZoneType typeOfZone = Draggable.ZoneType.ORDINARY;
@@ -39,6 +49,8 @@ public class CardController : MonoBehaviour {
         _isFaceUp = true;
         _manager = GameObject.FindGameObjectWithTag("Manager");
         _isFree = false;
+        _ZoneName = "table";
+        buttonAnimator.SetTrigger(button.animationTriggers.highlightedTrigger);
     }
 
     public void SetupGraphics()
@@ -50,10 +62,20 @@ public class CardController : MonoBehaviour {
 
     public void FlipCard()
     {
+       // _manager.GetComponent<GameManager>().StartCoroutine(_manager.GetComponent<GameManager>().PauseCoroutine());
         _isFaceUp = !_isFaceUp;
 
         if(_isFaceUp)
             GetComponent<Image>().sprite = _cardFace;
+    }
+
+    public void CheckOnClick()
+    {
+        _manager.GetComponent<GameManager>().currentCard = this;     
+       
+        _manager.GetComponent<GameManager>().CheckCardsOnMouseClick();
+        
+
     }
 
     public int CardValue
@@ -102,5 +124,13 @@ public class CardController : MonoBehaviour {
     {
         get { return _type; }
         set { _type = value; }
+    }
+
+    
+
+    public string ZoneName
+    {
+        get { return _ZoneName; }
+        set { _ZoneName = value; }
     }
 }
